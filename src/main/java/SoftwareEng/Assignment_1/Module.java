@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class Module {
 
-	private String moduleCode;
-	private String name;
+	public String moduleCode;
+	public String name;
 	ArrayList<Student> listOfStudents;
-	private ArrayList<Course_Programme> associatedCourses;
+	public ArrayList<Course_Programme> associatedCourses;
 
 	public Module(String code, String name){
 		this.moduleCode = code;
@@ -16,7 +16,7 @@ public class Module {
 		associatedCourses = new ArrayList<Course_Programme>();
 	  }
 	
-	protected void addModule_Student(Student student){
+	public void addModule_Student(Student student){
 		if(!listOfStudents.contains(student)){
 			listOfStudents.add(student);
 		}

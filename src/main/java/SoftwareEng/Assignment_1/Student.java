@@ -12,7 +12,7 @@ public class Student {
 	DateTime DOB;
 	int ID;
 	String username;
-	private String User;
+	public String User;
 	ArrayList<Module> listOfModules;
 	String course;
 
@@ -35,7 +35,7 @@ public class Student {
 		return username;
 	}
 	
-	protected void addModule_Student(Module module){
+	public void addModule_Student(Module module){
 		if(!listOfModules.contains(module)){
 			listOfModules.add(module);
 		}

@@ -5,11 +5,11 @@ import org.joda.time.DateTime;
 
 public class Course_Programme {
 
-	private String CName;
+	public String CName;
 	ArrayList<Module> listOfModules;
 	ArrayList<Student> listOfStudents;
-	private DateTime startDate;
-	private DateTime endDate;
+	public DateTime startDate;
+	public DateTime endDate;
 	
 
 	public Course_Programme(String name, DateTime academicStartDate, DateTime academicEndDate) {
@@ -22,13 +22,13 @@ public class Course_Programme {
 	    
 	}
 
-	protected void addStudent_Course(Student student){
+	public void addStudent_Course(Student student){
 		if(!listOfStudents.contains(student)){
 			listOfStudents.add(student);
 		}
 	}
 	
-	protected void addModule_Course(Module module){
+	public void addModule_Course(Module module){
 		if(!listOfModules.contains(module)){
 			listOfModules.add(module);
 		}
