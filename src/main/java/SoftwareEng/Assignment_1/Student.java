@@ -8,9 +8,9 @@ public class Student {
 	
 	// declaring student property
 	public String name;
-	int age;
+	public int age;
 	public DateTime DOB;
-	int ID;
+	public int ID;
 	public String username;
 	public String User;
 	public ArrayList<Module> listOfModules;
