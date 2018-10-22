@@ -7,14 +7,14 @@ import org.joda.time.DateTime;
 public class Student {
 	
 	// declaring student property
-	String name;
+	public String name;
 	int age;
-	DateTime DOB;
+	public DateTime DOB;
 	int ID;
-	String username;
+	public String username;
 	public String User;
-	ArrayList<Module> listOfModules;
-	String course;
+	public ArrayList<Module> listOfModules;
+	public String course;
 
 	// initializing student property in constructor
 	public Student(String SName, int age, DateTime DOB, int ID, String course) {

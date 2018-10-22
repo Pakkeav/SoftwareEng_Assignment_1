@@ -6,7 +6,7 @@ public class Module {
 
 	public String moduleCode;
 	public String name;
-	ArrayList<Student> listOfStudents;
+	public ArrayList<Student> listOfStudents;
 	public ArrayList<Course_Programme> associatedCourses;
 
 	public Module(String code, String name){
