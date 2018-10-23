@@ -15,8 +15,8 @@ public class Course_Programme {
 	public Course_Programme(String name, DateTime academicStartDate, DateTime academicEndDate) {
 		
 		this.CName = name;
-		this.listOfModules = new ArrayList<Module>();
-	    this.listOfStudents = new ArrayList<Student>();
+		listOfModules = new ArrayList<Module>();
+	    listOfStudents = new ArrayList<Student>();
 	    this.startDate = academicStartDate;
 	    this.endDate = academicEndDate;
 	    
@@ -36,5 +36,8 @@ public class Course_Programme {
 	
 	public ArrayList<Module> getModules(){
 	    return this.listOfModules;
-	  }
+	}
+	public void setModules(ArrayList m){
+	    this.listOfModules = m;
+	}
 }
