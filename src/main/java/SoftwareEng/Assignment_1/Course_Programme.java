@@ -34,11 +34,5 @@ public class Course_Programme {
 		}
 	}
 	
-	public DateTime getStartDate(){
-	    return this.startDate;
-	  }
 
-	  public void setStartDate(DateTime startDate){
-	    this.startDate = startDate;
-	  }
 }
