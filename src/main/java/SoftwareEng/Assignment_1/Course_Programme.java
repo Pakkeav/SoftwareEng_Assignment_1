@@ -34,10 +34,7 @@ public class Course_Programme {
 		}
 	}
 	
-	public ArrayList<Module> getModules(){
-	    return this.listOfModules;
-	}
-	public void setModules(ArrayList m){
-	    this.listOfModules = m;
-	}
+	public ArrayList<Module> getModules() {
+        return listOfModules;
+    }
 }
