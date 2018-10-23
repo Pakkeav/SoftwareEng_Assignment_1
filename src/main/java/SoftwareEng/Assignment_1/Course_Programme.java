@@ -34,5 +34,7 @@ public class Course_Programme {
 		}
 	}
 	
-
+	public ArrayList<Module> getModules(){
+	    return this.listOfModules;
+	  }
 }
