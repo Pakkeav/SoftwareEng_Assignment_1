@@ -15,8 +15,8 @@ public class Course_Programme {
 	public Course_Programme(String name, DateTime academicStartDate, DateTime academicEndDate) {
 		
 		this.CName = name;
-		listOfModules = new ArrayList<Module>();
-	    listOfStudents = new ArrayList<Student>();
+		this.listOfModules = new ArrayList<Module>();
+	    this.listOfStudents = new ArrayList<Student>();
 	    this.startDate = academicStartDate;
 	    this.endDate = academicEndDate;
 	    
