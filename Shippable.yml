@@ -9,7 +9,7 @@ branches:
 
 after_success:
   - mvn test
-  
+  - mvn clean cobertura:cobertura
 notifications:
   email:
     recipients:
