@@ -8,8 +8,8 @@ branches:
     - master
 
 after_success:
+ - mvn compiler:compile
   - mvn test
-  - mvn clean cobertura:cobertura
 notifications:
   email:
     recipients:
