@@ -16,12 +16,12 @@ public class Module {
 		associatedCourses = new ArrayList<Course_Programme>();
 	  }
 	
-	public void addModule_Student(Student student){
+	public void addStudent_Module(Student student){
 		if(!listOfStudents.contains(student)){
 			listOfStudents.add(student);
 		}
 	}
-	public void addModule_Student(Course_Programme courses){
+	public void addCourse_Module(Course_Programme courses){
 		if(!associatedCourses.contains(courses)){
 			associatedCourses.add(courses);
 		}
