@@ -34,8 +34,4 @@ public class Course_Programme {
 			listOfModules.add(module);
 		}
 	}
-	
-	public List<Module> getModules() {
-        return listOfModules;
-    }
 }
