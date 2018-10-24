@@ -41,6 +41,9 @@ public class Student {
 			listOfModules.add(module);
 		}
 	}
-
+	public ArrayList<Module> getListOfModules(){
+		return listOfModules;
+		
+	}
 	
 }
