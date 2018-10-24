@@ -7,9 +7,5 @@ build:
     - mkdir -p shippable/testresults
     - mkdir -p shippable/codecoverage
     - shippable_retry mvn install
-    - mvn test
+    - cp -r target shippable/codecoverage
   
-notifications:
-  email:
-    recipients:
-      - pkeaveney2@nuigalway.ie
