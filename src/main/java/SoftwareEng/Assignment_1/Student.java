@@ -45,6 +45,6 @@ public class Student {
 		return this.name;
 	}
 	public void setName(String SName ) {
-		this name = SName;
+		this.name = SName;
 	}
 }
