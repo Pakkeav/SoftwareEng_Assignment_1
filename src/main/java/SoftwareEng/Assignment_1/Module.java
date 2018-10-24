@@ -21,6 +21,11 @@ public class Module {
 			listOfStudents.add(student);
 		}
 	}
+	public void addModule_Student(Course_Programme courses){
+		if(!associatedCourses.contains(courses)){
+			associatedCourses.add(courses);
+		}
+	}
 	public ArrayList<Student> getListOfStudents(){
 		return listOfStudents;
 		
