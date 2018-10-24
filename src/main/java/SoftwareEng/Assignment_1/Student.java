@@ -44,4 +44,7 @@ public class Student {
 	public String getName() {
 		return this.name;
 	}
+	public void setName(String SName ) {
+		this name = SName;
+	}
 }
