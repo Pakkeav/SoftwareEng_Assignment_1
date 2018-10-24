@@ -25,9 +25,7 @@ public class Student {
 		this.course = course;
 		listOfModules = new ArrayList<Module>();
 	}
-	public String getName() {
-		return name;
-	}
+
 	public String getUsername() {
 		this.User = name + age;
 		if(User.contains(" ")) {
@@ -35,7 +33,7 @@ public class Student {
 		}else {
 			return User;
 		}
-		return name;
+		return username;
 	}
 	
 	public void addModule_Student(Module module){
