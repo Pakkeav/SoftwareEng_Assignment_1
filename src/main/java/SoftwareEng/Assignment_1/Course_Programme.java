@@ -1,14 +1,13 @@
 package SoftwareEng.Assignment_1;
 
 import java.util.ArrayList;
-import java.util.List;
 import org.joda.time.DateTime;
 
 public class Course_Programme {
 
 	public String CName;
-	public List<Module> listOfModules;
-	public List<Student> listOfStudents;
+	public ArrayList<Module> listOfModules;
+	public ArrayList<Student> listOfStudents;
 	public DateTime startDate;
 	public DateTime endDate;
 	
@@ -33,5 +32,9 @@ public class Course_Programme {
 		if(!listOfModules.contains(module)){
 			listOfModules.add(module);
 		}
+	}
+	public ArrayList<Module> getListOfModules(){
+		return listOfModules;
+		
 	}
 }
