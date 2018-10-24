@@ -15,7 +15,7 @@ public class Student {
 	public String User;
 	public ArrayList<Module> listOfModules;
 	public String course;
-
+ 
 	// initializing student property in constructor
 	public Student(String SName, int age, DateTime DOB, int ID, String course) {
 		this.name = SName;
