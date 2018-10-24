@@ -42,7 +42,7 @@ public class Student {
 	}
 
 	public String getName() {
-		return this.name;
+		return name;
 	}
 	public void setName(String SName ) {
 		this.name = SName;
