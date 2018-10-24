@@ -37,4 +37,8 @@ public class Course_Programme {
 		return listOfModules;
 		
 	}
+	public ArrayList<Student> listOfStudents(){
+		return listOfStudents;
+		
+	}
 }
