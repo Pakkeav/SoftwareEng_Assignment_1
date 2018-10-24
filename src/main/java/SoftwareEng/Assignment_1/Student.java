@@ -18,12 +18,15 @@ public class Student {
 
 	// initializing student property in constructor
 	public Student(String SName, int age, DateTime DOB, int ID, String course) {
-		this.name = SName;
+		//this.name = SName;
 		this.age = age;
 		this.DOB = DOB;
 		this.ID = ID;
 		this.course = course;
 		listOfModules = new ArrayList<Module>();
+	}
+	public String getName() {
+		return name;
 	}
 	public String getUsername() {
 		this.User = name + age;
@@ -41,10 +44,5 @@ public class Student {
 		}
 	}
 
-	public String getName() {
-		return name;
-	}
-	public void setName(String SName ) {
-		this.name = SName;
-	}
+	
 }
