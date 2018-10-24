@@ -6,10 +6,11 @@ jdk:
 branches:
   only:
     - master
-
-after_success:
- - mvn compiler:compile
+    
+build:
+  ci:
   - mvn test
+  
 notifications:
   email:
     recipients:
