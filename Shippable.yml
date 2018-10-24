@@ -1,15 +1,13 @@
-
 language: java
 jdk:
-  - oraclejdk10
-
-branches:
-  only:
-    - master
+    - oraclejdk8
     
 build:
   ci:
-  - mvn test
+    - mkdir -p shippable/testresults
+    - mkdir -p shippable/codecoverage
+    
+    - mvn test
   
 notifications:
   email:
