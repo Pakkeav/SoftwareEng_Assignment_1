@@ -18,7 +18,7 @@ public class AppTest {
 		
 		//Test username generation
 	    String s1Username = s1.getUsername();
-	    assertEquals("JohnHam20", s1Username);
+	    assertEquals("JohnHam22", s1Username);
 	    
 	    //Test add module to student
 	    s1.addModule_Student(m1);
@@ -31,7 +31,7 @@ public class AppTest {
 	public void ModuleTest(){
 		
 		Module m1 = new Module("CT123", "Programming");
-		Student s1 = new Student("John", 20, new DateTime(), 12345678, "I.T");
+		Student s1 = new Student("John", 22, new DateTime(), 12345678, "I.T");
 		
 		m1.addStudent_Module(s1);
 		assertTrue(m1.listOfStudents.contains(s1));
