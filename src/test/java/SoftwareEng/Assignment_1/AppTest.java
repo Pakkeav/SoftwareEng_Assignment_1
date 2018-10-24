@@ -33,7 +33,7 @@ public class AppTest {
 		Module m1 = new Module("CT123", "Programming");
 		Student s1 = new Student("John", 20, new DateTime(), 12345678, "I.T");
 		
-		m1.addModule_Student(s1);
+		m1.addStudent_Module(s1);
 		assertTrue(m1.listOfStudents.contains(s1));
 
 	}
