@@ -1,0 +1,16 @@
+
+language: java
+jdk:
+  - oraclejdk10
+
+branches:
+  only:
+    - master
+
+after_success:
+  - mvn test
+  
+notifications:
+  email:
+    recipients:
+      - pkeaveney2@nuigalway.ie
