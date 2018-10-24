@@ -21,11 +21,11 @@ public class Module {
 			listOfStudents.add(student);
 		}
 	}
-	public ArrayList<Student> listOfStudents(){
+	public ArrayList<Student> getListOfStudents(){
 		return listOfStudents;
 		
 	}
-	public ArrayList<Course_Programme> associatedCourses(){
+	public ArrayList<Course_Programme> getAssociatedCourses(){
 		return associatedCourses;
 		
 	}
