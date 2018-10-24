@@ -21,4 +21,12 @@ public class Module {
 			listOfStudents.add(student);
 		}
 	}
+	public ArrayList<Student> listOfStudents(){
+		return listOfStudents;
+		
+	}
+	public ArrayList<Course_Programme> associatedCourses(){
+		return associatedCourses;
+		
+	}
 }
