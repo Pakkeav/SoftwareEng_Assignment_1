@@ -18,7 +18,7 @@ public class Student {
 
 	// initializing student property in constructor
 	public Student(String SName, int age, DateTime DOB, int ID, String course) {
-		//this.name = SName;
+		this.name = SName;
 		this.age = age;
 		this.DOB = DOB;
 		this.ID = ID;
@@ -35,7 +35,7 @@ public class Student {
 		}else {
 			return User;
 		}
-		return username;
+		return name;
 	}
 	
 	public void addModule_Student(Module module){
