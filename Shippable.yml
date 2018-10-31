@@ -8,4 +8,6 @@ after_success:
    - mvn test
 
 notifications:
-  email: p.keaveney2@nuigalway.ie
+  email:
+    recipients:
+      - p.keaveney2@nuigalway.ie
