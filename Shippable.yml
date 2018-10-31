@@ -4,7 +4,7 @@ jdk:
   - openjdk8
 
 script:
- - npm test
+ - nvm test
 
 notifications:
     email:
